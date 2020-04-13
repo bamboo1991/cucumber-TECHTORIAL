@@ -5,9 +5,9 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src\\test\\resources\\",
+        features = "src\\test\\resources\\com.cucumber.features.webOrder\\OrderProduct.feature",
         glue = "StepDefinitions",
-        dryRun = true,
+        dryRun = false,
         monochrome = true
 
 

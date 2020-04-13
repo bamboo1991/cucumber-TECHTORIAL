@@ -6,13 +6,13 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src\\test\\resources\\com.cucumber.features.Etsy\\EtsyExampleTable.feature",
-        glue = "StepDefinitions\\EtsyStepDefs",
-        monochrome = true,
+        features = "src/test/resources/MyAppAutoMation.feature",
+        glue = "StepDefinitions",
+        tags = "@db",
         dryRun = false
 )
+public class MyAppRunner {
 
-public class EtsyRunner {
 
 
 }

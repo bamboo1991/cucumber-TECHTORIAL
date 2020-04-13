@@ -14,8 +14,9 @@ public class HomePage {
     }
     @FindBy(xpath = "//ul[@id='ctl00_menu']//li")
     public List<WebElement> orderMenu;
-    @FindBy(xpath = "//a[.='View all products']")
-    public WebElement viewAllProduct;
+    @FindBy(xpath = "//a[.='View all orders']")
+    public WebElement viewAllOrdersButton;
+
 
 
     public List<String> orderMenuData(){

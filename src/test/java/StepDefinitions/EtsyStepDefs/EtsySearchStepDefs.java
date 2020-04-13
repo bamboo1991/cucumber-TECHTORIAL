@@ -17,7 +17,6 @@ public class EtsySearchStepDefs {
     @Given("the user navigate to the Etsy")
     public void the_user_navigate_to_the_Etsy(){
         driver.get(ConfigReader.getProperty("etsyUrl"));
-
     }
     @When("the user search {string}")
     public void the_user_search(String searchValue) {

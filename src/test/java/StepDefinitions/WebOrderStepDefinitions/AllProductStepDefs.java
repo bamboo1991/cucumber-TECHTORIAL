@@ -14,7 +14,7 @@ public class AllProductStepDefs {
 
     @Then("user click view all product button")
     public void user_click_view_all_product_button() {
-        page.viewAllProduct.click();
+        page.viewAllOrdersButton.click();
 
     }
 
